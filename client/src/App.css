@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 15vh;
+}
+
+.header h1 {
+  font-size: 36px;
+  padding: 30px 100px 10px 100px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.header-button {
+  font-size: 24px;
+  padding: 25px 100px 17px 100px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.header button {
+  font-size: 24px;
+  padding: 15px 100px 17px 100px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.header button:hover{
+  color: rgb(199, 199, 198);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 10vh;
+  margin-top: auto;
+}
+
+.footer h1 {
+  font-size: 18px;
+  padding: 25px 100px 15px 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lp-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.lp-container img{
+  padding: 100px 50px 100px 50px;
+  width: 800px;
+  height: 400px;
+}
+
+.lp-container h1{
+  padding: 180px 50px 5px 100px;
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lp-container h2{
+  font-size: 28px;
+  padding: 20px 50px 20px 100px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.authentication {
+  background-color: rgb(50, 98, 255,0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.authentication h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color:white;
+  padding-bottom: 20px;
+}
+
+.authentication h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  color:rgb(189, 242, 245);
+  padding-bottom: 30px;
+}
+
+.auth-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 35vw;
+  box-shadow: 0 0 20px 3px rgb(15, 69, 114);
+}
+
+.toggle-auth {
+  margin-left: auto;
+  padding: 1em 3.5em 1em 3.5em;
+}
+
+.toggle-auth button{
+  background-color: transparent;
+  font-size: 1.2em;
+  color: rgb(50, 98, 255);
+  border: none;
+  padding: 0.5em;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+}
+
+.toggle-auth button:hover{
+  color: rgb(0, 59, 253);
+}
+
+.auth-body {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 3.5em 2em 3.5em;
+}
+
+.auth-body h3{
+  color: black;
+  font-size: 1em;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.auth-body input{
+  padding: 1.2em 0.8em 1.2em 0.8em;
+  margin: 0.5em;
+  box-shadow: 0px 0px 10px 2px rgb(182, 175, 175);
+  font-size: 1em;
+  color:black;
+}
+
+.auth-body button{
+  padding: 0.5em;
+  background-color: rgb(50, 98, 255,0.95);
+  border: none;
+  font-size: 1.5em;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  margin: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.auth-body button:hover{
+  color: white;
+  background-color: rgb(0, 59, 253);
+}
+
+.home {
+  display : flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home h2{
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 1.5em;
+}
+
+.home-container { 
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+
+}
+
+.home-container input{
+  margin-left: auto;
+  padding: 5px 0 5px 20px;
+  width: 40vw;
+  height: 5vh;
+  border: 2px solid rgb(124, 114, 114);
+  border-radius: 5px 0 0 5px;
+}
+
+.home-container button{
+  margin-right: auto;
+  background-color: black;
+  border: 3px solid black;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  width: 5vw;
+  height: 6.7vh;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}

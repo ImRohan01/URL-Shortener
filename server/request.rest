@@ -1,0 +1,6 @@
+POST http://localhost:8080/auth/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidGVzdEB0ZXN0LmNvbSIsImlhdCI6MTYwMDc2ODc1MH0.Xjn7cZzmnm3YmKLOUctfdpTyiA0P560-HLVgz6WRWlU"
+}
